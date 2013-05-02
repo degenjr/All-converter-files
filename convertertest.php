@@ -1,0 +1,8 @@
+<!-- FUEL CONSUMPTION CONVERTER START -->
+<form style="padding:0;margin:0" name="cat=Fuel_Consumption">
+<table align=center width=500 style="font-family:Verdana;font-size:100%" border=0 cellpadding=0 cellspacing=0><tr><td style="padding:1.2ex 1.5ex;width:50%;font-family:Verdana;font-size:13px">From:<br><input style="width:100%;font-family:Verdana;font-size:100%" type=text name="bindid=left;base=1"></td><td style="padding:1.2ex 1.5ex;width:50%;font-family:Verdana;font-size:13px">To:<br><input style="width:100%;font-family:Verdana;font-size:100%" type=text name="bindid=right"></td></tr><tr><td style="padding:1.2ex 1.5ex;width:50%;font-family:Verdana;font-size:13px">
+<select name=left size=2 style="width:100%;font-family:Verdana;font-size:100%"><option value="kilometer/liter" selected>kilometer/liter [km/L]</option><option value="mile/gallon (US)">mile/gallon (US) [mi/gal (US)]</option></select></td><td style="padding:1.2ex 1.5ex;width:50%;font-family:Verdana;font-size:13px">
+<select name=right size=2 style="width:100%;font-family:Verdana;font-size:100%"><option value="kilometer/liter" selected>kilometer/liter [km/L]</option><option value="mile/gallon (US)">mile/gallon (US) [mi/gal (US)]</option></select></td></tr><tr><td colspan=2 style="padding:1.2ex 1.5ex;font-family:Verdana;font-size:13px">Result:<br><input style="width:100%;font-family:Verdana;font-size:100%" type=text name="type=result;bindid=left;bindid2=right"></td></tr></table>
+</form>
+<script src=http://www.unitconversion.org/converter3/converter3.js></script>
+<!-- FUEL CONSUMPTION CONVERTER END -->
